@@ -15,4 +15,4 @@ end
 
 puts ghappy("pasdgnkpaophopgaoj")#false
 puts ghappy("ggso fkjdoaggppa paj dosgg")#true
-puts ghappy("lkjhlhionj")#indeterminable
+puts ghappy("lkjhlhionj")#false
