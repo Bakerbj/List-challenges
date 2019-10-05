@@ -9,10 +9,10 @@ def get_sandwich(str)
             count = count + 1
         end
     end
-    puts count
     if count < 2
         return false
-    elsif
+    else
+        return true
     end
 end
 
