@@ -1,7 +1,7 @@
 def get_sandwich(str)
     count = 0
     if str.size < 11
-        return false
+        return ""
     end
     (str.size - 2).times do |i|
         slice = str[i..(i + 4)]
@@ -10,9 +10,9 @@ def get_sandwich(str)
         end
     end
     if count < 2
-        return false
+        return ""
     else
-        return true
+        
     end
 end
 
